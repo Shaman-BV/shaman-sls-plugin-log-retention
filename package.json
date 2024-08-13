@@ -1,6 +1,6 @@
 {
   "name": "serverless-plugin-log-retention",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Control the retention of your function's cloudwatch logs.",
   "main": "add-log-retention.js",
   "scripts": {
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ArtificerEntertainment/serverless-plugin-log-retention.git"
+    "url": "git+https://github.com/Shaman-BV/shaman-sls-plugin-log-retention"
   },
   "bugs": {
-    "url": "https://github.com/ArtificerEntertainment/serverless-plugin-log-retention/issues"
+    "url": "https://github.com/Shaman-BV/shaman-sls-plugin-log-retention/issues"
   },
-  "homepage": "https://github.com/ArtificerEntertainment/serverless-plugin-log-retention",
+  "homepage": "https://github.com/Shaman-BV/shaman-sls-plugin-log-retention",
   "keywords": [
     "serverless",
     "plugin",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "dependencies": {
     "nco": "1.0.1",
-    "semver": "5.4.1"
+    "semver": "^5.7.2"
   },
   "devDependencies": {
     "chai": "4.1.2",
-    "mocha": "4.0.1",
-    "nyc": "11.3.0",
+    "mocha": "^10.7.3",
+    "nyc": "^17.0.0",
     "sinon": "4.1.2"
   }
 }
